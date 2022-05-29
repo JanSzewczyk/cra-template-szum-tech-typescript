@@ -1,26 +1,15 @@
 {
   "author": "Jan Szewczyk (Szum-Tech)",
   "bugs": "https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/issues",
-  "description": "The base TypeScript template for Create React App compliant with the Szum-Tech standards.",
-  "homepage": "https://github.com/JanSzewczyk/cra-template-szum-tech-typescript#readme",
-  "name": "@szum-tech/cra-template-szum-tech-typescript",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JanSzewczyk/cra-template-szum-tech-typescript.git"
+  "scripts": {
+    "lint": "eslint {**/*,*}.{js,ts,jsx,tsx,html}",
+    "lint:fix": "eslint --fix {**/*,*}.{js,ts,jsx,tsx,html}",
+    "prettier": "prettier .",
+    "prettier:write": "prettier --write .",
+    "semantic-release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "szum-tech",
-    "react",
-    "create-react-app",
-    "template",
-    "typescript"
-  ],
-  "license": "MIT",
-  "files": [
-    "template",
-    "template.json"
-  ],
+  "description": "The base TypeScript template for Create React App compliant with the Szum-Tech standards.",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
@@ -35,15 +24,29 @@
     "semantic-release": "^19.0.2",
     "typescript": "^4.7.2"
   },
-  "scripts": {
-    "lint": "eslint {**/*,*}.{js,ts,jsx,tsx,html}",
-    "lint:fix": "eslint --fix {**/*,*}.{js,ts,jsx,tsx,html}",
-    "prettier": "prettier .",
-    "prettier:write": "prettier --write .",
-    "semantic-release": "semantic-release",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "homepage": "https://github.com/JanSzewczyk/cra-template-szum-tech-typescript#readme",
+  "keywords": [
+    "szum-tech",
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "license": "MIT",
+  "name": "@szum-tech/cra-template-szum-tech-typescript",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanSzewczyk/cra-template-szum-tech-typescript.git"
+  },
+  "version": "1.0.0"
 }

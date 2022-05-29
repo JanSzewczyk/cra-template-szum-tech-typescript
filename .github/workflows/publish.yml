@@ -1,4 +1,4 @@
-name: "🚀 publish"
+name: "🚀 Publish"
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: 🧪 test
+    name: 🧪 Test
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -14,18 +14,18 @@ jobs:
         os: [ubuntu-latest, windows-latest]
 
     steps:
-      - name: 📚 checkout
+      - name: Checkout repository 📚
         uses: actions/checkout@v3
 
-      - name: 🟢 node
+      - name: Set up Node 🟢
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: ⚙ install packages
+      - name: Install packages ⚙️
         run: yarn install --frozen-lockfile
 
-      - name: 🧪 run tests
+      - name: Run tests 🧪
         run: yarn test
 
   publish:
@@ -34,18 +34,18 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [test]
     steps:
-      - name: 📚 checkout
+      - name: Checkout repository 📚
         uses: actions/checkout@v3
 
-      - name: 🟢 node
+      - name: Set up Node 🟢
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: ⚙ install packages
+      - name: Install packages ⚙️
         run: yarn install --frozen-lockfile
 
-      - name: 🚀 run semantic-release
+      - name: Deploy package 🚀
         run: yarn semantic-release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,0 +1,6 @@
+# dependencies
+/.vscode
+/.idea
+/node_modules
+
+yarn.lock

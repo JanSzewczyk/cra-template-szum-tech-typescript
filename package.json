@@ -5,5 +5,11 @@
   "author": "Jan Szewczyk (Szum-Tech)",
   "license": "MIT",
   "private": true,
-  "files": []
+  "files": [],
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
 }

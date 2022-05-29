@@ -17,6 +17,7 @@
     "lint": "eslint {**/*,*}.{js,ts,jsx,tsx,html}",
     "lint:fix": "eslint --fix {**/*,*}.{js,ts,jsx,tsx,html}",
     "prettier": "prettier .",
-    "prettier:write": "prettier --write ."
+    "prettier:write": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

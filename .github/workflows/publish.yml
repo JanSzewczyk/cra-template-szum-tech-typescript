@@ -14,7 +14,7 @@ jobs:
         os: [ubuntu-latest, windows-latest]
 
     steps:
-      - name: Checkout repository 📚
+      - name: Checkout code 📚
         uses: actions/checkout@v3
 
       - name: Set up Node 🟢
@@ -34,7 +34,7 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [test]
     steps:
-      - name: Checkout repository 📚
+      - name: Checkout code 📚
         uses: actions/checkout@v3
 
       - name: Set up Node 🟢

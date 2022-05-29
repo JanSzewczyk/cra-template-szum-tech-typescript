@@ -7,9 +7,16 @@
   "private": true,
   "files": [],
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "@szum-tech/eslint-config-szum-tech": "^1.3.3",
+    "eslint": "^8.16.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.2"
   },
   "scripts": {
-    "format": "prettier --write ."
+    "lint": "eslint {**/*,*}.{js,ts,jsx,tsx,html}",
+    "lint:fix": "eslint --fix {**/*,*}.{js,ts,jsx,tsx,html}",
+    "prettier": "prettier .",
+    "prettier:write": "prettier --write ."
   }
 }

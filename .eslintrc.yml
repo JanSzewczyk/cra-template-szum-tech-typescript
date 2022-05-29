@@ -1,0 +1,2 @@
+extends:
+  - "@szum-tech/eslint-config-szum-tech"

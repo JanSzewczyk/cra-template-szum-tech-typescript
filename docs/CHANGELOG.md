@@ -1,3 +1,23 @@
+# [1.1.0](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/compare/v1.0.1...v1.1.0) (2022-05-30)
+
+
+### Bug Fixes
+
+* **gh-actions:** fix codeQL action ([d02d4c1](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/d02d4c13ba5dafb68f0c41fbbc28111878ef243b))
+
+
+### Features
+
+* **template:** add `prettier` and `eslint` config ([07767f6](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/07767f653b7ee831f3156281ffc6aee9f1af984e))
+* **template:** add eslint gh check for template ([a241121](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/a241121586c4ea3b3eeb745a218f9c4f58948d06))
+* **template:** add gitignore file ([e1b7487](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/e1b748752e0aed8480361f38db932c1589f6065a))
+* **template:** create `React` app template ([248a93c](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/248a93cc65354d7cca61c1014f82c1957d561671))
+
+
+### Reverts
+
+* **package:** revert test script ([45fa149](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/45fa149d71a89242c3fb25c7a8eecbdb70902943))
+
 ## [1.0.1](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/compare/v1.0.0...v1.0.1) (2022-05-29)
 
 

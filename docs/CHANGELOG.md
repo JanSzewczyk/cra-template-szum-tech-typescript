@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/compare/v1.1.1...v1.1.2) (2022-05-30)
+
+
+### Bug Fixes
+
+* **template:** remove unused files ([327fe9a](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/327fe9a2471b14015f241cfa05cbf6a2bffea95c))
+
 ## [1.1.1](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/compare/v1.1.0...v1.1.1) (2022-05-30)
 
 

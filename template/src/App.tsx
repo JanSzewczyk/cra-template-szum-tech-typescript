@@ -1,8 +1,6 @@
 import "./App.css";
 import logo from "./logo.svg";
 
-// TODO refactor after eslint config package update
-// eslint-disable-next-line require-jsdoc
 function App() {
   return (
     <div className={"App"}>

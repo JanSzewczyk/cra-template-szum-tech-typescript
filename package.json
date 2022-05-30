@@ -7,7 +7,7 @@
     "prettier": "prettier .",
     "prettier:write": "prettier --write .",
     "semantic-release": "semantic-release",
-    "test": "jest"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "description": "The base TypeScript template for Create React App compliant with the Szum-Tech standards.",
   "devDependencies": {

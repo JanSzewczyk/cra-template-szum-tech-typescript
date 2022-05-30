@@ -1004,9 +1004,9 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@szum-tech/eslint-config-szum-tech@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@szum-tech/eslint-config-szum-tech/-/eslint-config-szum-tech-1.3.3.tgz#a7feeda0c57c2e733f755587955624be0d222d77"
-  integrity sha512-/nYmwygPIdOMIwTnQtQq1aG0enKwBU5hIW9gGGBAE1CyrUf2rxn1vUpnrNFTW+M0axlpBZDryfBIHeXlGUfEsQ==
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@szum-tech/eslint-config-szum-tech/-/eslint-config-szum-tech-1.3.4.tgz#4961b7d50fcb862deeb794dfb6e99824efcd597b"
+  integrity sha512-z3xyEfPYDIxTdayUn/w16/p0k9bIOPNvunur1EInLpgFPGhF7NC8Q7ZehFu1ju3F0WM4IjD/yuphDT4svnL5dw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.19.0"
     "@typescript-eslint/parser" "^5.19.0"

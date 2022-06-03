@@ -1,6 +1,8 @@
 {
   "author": "Jan Szewczyk (Szum-Tech)",
-  "bugs": "https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/issues",
+  "bugs": {
+    "url": "https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/issues"
+  },
   "scripts": {
     "lint": "eslint {**/*,*}.{js,ts,jsx,tsx}",
     "lint:fix": "eslint --fix {**/*,*}.{js,ts,jsx,tsx}",

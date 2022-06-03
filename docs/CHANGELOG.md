@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/compare/v1.1.4...v1.1.5) (2022-06-03)
+
+
+### Bug Fixes
+
+* **package:** fix build link ([e6acc6d](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/commit/e6acc6d03c8698febc30e73b37eff31b80daf728))
+
 ## [1.1.4](https://github.com/JanSzewczyk/cra-template-szum-tech-typescript/compare/v1.1.3...v1.1.4) (2022-05-30)
 
 

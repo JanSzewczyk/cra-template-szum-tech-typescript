@@ -1,0 +1,21 @@
+name: PR test
+
+on:
+  pull_request:
+
+jobs:
+  labeler:
+    name: Labeler action test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code 📚
+        uses: actions/checkout@v3
+
+      - name: Greetings test
+        uses: JanSzewczyk/gh-action-szum-tech@v1.2.1
+
+
+      - name: Labels test
+        uses: JanSzewczyk/gh-action-szum-tech/labels@v1.2.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

@@ -13,7 +13,7 @@
   },
   "description": "The base TypeScript template for Create React App compliant with the Szum-Tech standards.",
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.4",
